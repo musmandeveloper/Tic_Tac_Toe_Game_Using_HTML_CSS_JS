@@ -1,0 +1,102 @@
+
+body {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0%;
+    background-color: aqua;
+}
+
+.tictactoe-section {
+    margin: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    text-align: center;
+    background-color: violet;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.turn-score-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    background-color: chocolate;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(197, 179, 78);
+    padding: 30px;
+}
+
+.game .row {
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.btn {
+    width: 80px;
+    height: 80px;
+}
+
+/* Overlay popup styles */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .overlay-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .overlay-content h2 {
+    margin: 0 0 20px;
+  }
+  
+  .overlay-content button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .overlay-content button:hover {
+    background-color: #179221;
+  }
+  
+  /* Highlight winning cells */
+  .winner {
+    background-color: #ffeb3b;
+  }
+
+  

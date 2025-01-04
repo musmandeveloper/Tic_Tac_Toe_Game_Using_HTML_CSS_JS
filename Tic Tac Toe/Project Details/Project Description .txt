@@ -1,0 +1,22 @@
+
+
+Tic-tac-toe (American English), noughts and crosses (Commonwealth English), 
+or Xs and Os (Canadian or Irish English) is a paper-and-pencil game for 
+two players who take turns marking the spaces in a three-by-three grid with 
+X or O. The player who succeeds in placing three of their marks in a 
+horizontal, vertical, or diagonal row first is the winner. It is a solved game, 
+with a forced draw assuming best play from both players.
+
+
+Other names	= Noughts and Crosses , Xs and Os
+Genres	= Paper-and-pencil game
+Players	= 2
+Setup time	= Minimal
+Playing time = 	~1 minute
+Chance	= None
+Skills	= Strategy, tactics, observation
+
+
+
+
+
